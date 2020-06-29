@@ -124,8 +124,8 @@ body {
   outline: none;
   overflow:hidden;
   color: #d3d3d3;
-
 }
+
 ::-moz-selection {
   color: white;
   background: transparent;
