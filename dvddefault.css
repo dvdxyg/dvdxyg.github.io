@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-image:linear-gradient(black,#404040);
+  background-color: #000;
   animation: backanimation;
   animation-duration: 2s;
 }

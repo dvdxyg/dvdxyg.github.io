@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-image:linear-gradient(black,#404040);
+  background-color: #000;
   animation: backanimation;
   animation-duration: 2s;
 }
@@ -75,7 +75,7 @@ body {
 }
 
 .nav-masthead .active {
-  color:#000;
+  color: #000;
   border-bottom-color: #000;
 }
 
@@ -127,12 +127,15 @@ body {
 }
 
 ::-moz-selection {
-  color: white;
+  color:white;
   background: transparent;
+
 }
 
+
+
 ::selection {
-  color: white;
+  color:white;
   background: transparent;
 }
 
@@ -166,6 +169,60 @@ body {
   }
 }
 
+@keyframes rgbhighlight2{
+  from{color: red; }
+  to{color:purple; }
+}
+
+
+
+@keyframes rgbhighlight {
+  0%{
+    color:purple;
+    background:transparent;
+  }
+  10%{
+    color:red;
+    background:transparent;
+  }
+  20%{
+    color:orange;
+    background:transparent;
+  }
+  30%{
+    color:yellow;
+    background:transparent;
+  }
+  40%{
+    color:green;
+    background:transparent;
+  }
+  50%{
+    color:cyan;
+    background:transparent;
+  }
+  60%{
+    color:blue;
+    background:transparent;
+  }
+  70%{
+    color:blueviolet;
+    background:transparent;
+  }
+  80%{
+    color: purple;
+    background:transparent;
+  }
+  90%{
+    color:rebeccapurple;
+    background:transparent;
+  }
+  100%{
+    color:black;
+    background:transparent;
+  }
+
+}
 
 
 /*
