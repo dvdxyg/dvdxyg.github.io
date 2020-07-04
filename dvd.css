@@ -136,6 +136,14 @@ body {
   background: transparent;
 }
 
+.dvdicon{
+  opacity: 0.7;
+}
+
+.dvdicon:hover{
+  opacity: 1;
+}
+
 @keyframes backanimation{
   from{
     background-color: #333;
